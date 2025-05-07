@@ -127,10 +127,41 @@ mark {
     height: 28px;
   }  
 
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .tech-used {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .tech-used span {
+    background-color: #333;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    color: #fff;
+  }
+  
+  .github-icon {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  
+  .github-icon:hover {
+    transform: scale(1.1);
+  }  
+
 footer {
   text-align: center;
   padding: 1rem;
   color: var(--subtext);
   font-size: 0.9rem;
-  margin-top: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
