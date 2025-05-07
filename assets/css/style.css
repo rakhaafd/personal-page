@@ -48,7 +48,9 @@ body {
   border-radius: 10px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--accent);
   margin-bottom: 1rem;
 }
@@ -117,45 +119,50 @@ mark {
 }
 
 .tech-badges {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-    margin-top: 1rem;
-  }
-  
-  .tech-badges img {
-    height: 28px;
-  }  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1rem;
+}
 
-  .card-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1rem;
-  }
+.tech-badges img {
+  height: 28px;
+}
 
-  .tech-used {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-  
-  .tech-used span {
-    background-color: #333;
-    padding: 4px 8px;
-    border-radius: 5px;
-    font-size: 0.75rem;
-    color: #fff;
-  }
-  
-  .github-icon {
-    display: inline-block;
-    transition: transform 0.2s ease;
-  }
-  
-  .github-icon:hover {
-    transform: scale(1.1);
-  }  
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.tech-used {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-used span {
+  background-color: #333;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  color: #fff;
+}
+
+.github-icon {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.github-icon:hover {
+  transform: scale(1.1);
+}
+
+.see-more-container {
+  text-align: center;
+  margin-top: 3rem;
+}
 
 footer {
   text-align: center;
